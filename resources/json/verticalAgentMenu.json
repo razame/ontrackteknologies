@@ -1,0 +1,164 @@
+{
+  "menu": [{
+      "url": "/dashboard-analytics",
+      "name": "Dashboard",
+      "slug": "/dashboard-analytics",
+      "icon": "feather icon-home",
+      "i18n": "Dashboard"
+    },
+    {
+      "url": "",
+      "name": "Reservation",
+      "i18n": "Reservation",
+      "slug": "/B2B-reservation",
+      "icon": "fa fa-shopping-cart",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-reservation",
+        "name": "Hotels",
+        "i18n": "Hotels",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-reservation"
+      }, {
+        "url": "/B2B-reservation?action=flight",
+        "name": "Flights",
+        "i18n": "Flights",
+        "icon": "fa fa-minus-square",
+        "slug": ""
+      }, {
+        "url": "",
+        "name": "Cars",
+        "i18n": "Cars",
+        "icon": "fa fa-minus-square",
+        "slug": ""
+      }]
+    },
+    {
+      "url": "",
+      "name": "Hotel Bookings Reports",
+      "i18n": "Hotel Bookings Reports",
+      "slug": "B2B/Administration",
+      "icon": "fa fa-user-secret",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-hotels/booking-reports",
+        "name": "All",
+        "i18n": "All",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports"
+      },
+      {
+        "url": "/B2B-hotels/booking-reports-confirmed?status=confirmed",
+        "name": "Confirmed",
+        "i18n": "Confirmed",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-confirmed?status=confirmed"
+      },
+      {
+        "url": "/B2B-hotels/booking-reports-failed?status=failed",
+        "name": "Failed",
+        "i18n": "Failed",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-failed?status=failed"
+      },{
+        "url": "/B2B-hotels/booking-reports-rejected?status=rejected",
+        "name": "Rejected",
+        "i18n": "Rejected",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-rejected?status=rejected"
+      },{
+        "url": "/B2B-hotels/booking-reports-pending?status=pending",
+        "name": "Pending",
+        "i18n": "Pending",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-pending?status=pending"
+      },{
+        "url": "/B2B-hotels/booking-reports-canceled?status=canceled",
+        "name": "Canceled",
+        "i18n": "Canceled",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-canceled?status=canceled"
+      }]
+    },
+    {
+      "url": "",
+      "name": "Accounts",
+      "i18n": "Accounts",
+      "slug": "Affiliate-Deposit",
+      "icon": "fa fa-users",
+      "dropdown": "1",
+      "submenu": [{
+          "url": "",
+          "name": "Wallet",
+          "i18n": "Wallet",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Deposit",
+          "submenu": [{
+            "url": "/Affiliate-Deposit",
+            "name": "Pay Online",
+            "i18n": "Pay Online",
+            "icon": "fa fa-minus-square",
+            "slug": "Affiliate-Deposit"
+          },
+          {
+            "url": "/Affiliate-Deposit-Cash-Deposite?CashDeposit=true",
+            "name": "Cash Deposit",
+            "i18n": "Cash Deposit",
+            "icon": "fa fa-minus-square",
+            "slug": "Affiliate-Deposit-Cash-Deposite"
+          }]
+        },
+        {
+          "url": "/Affiliate-Deposit-Reports",
+          "name": "Credit report",
+          "i18n": "Credit report",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Deposit-Reports"
+        },
+        {
+          "url": "/Affiliate-Fund-Allocation",
+          "name": "Fund Allocation",
+          "i18n": "Fund Allocation",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Fund-Allocation"
+        },
+        {
+          "url": "/Affiliate-Fund-Allocation-Reports",
+          "name": "Fund Allocation Reports",
+          "i18n": "Fund Allocation Reports",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Fund-Allocation-Reports"
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "Setting",
+      "i18n": "Setting",
+      "slug": "B2B/my-profile",
+      "icon": "fa fa-cogs",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B/my-profile",
+        "name": "Edit Profile",
+        "i18n": "Edit Profile",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B/my-profile"
+      }, {
+        "url": "/B2B/change-password",
+        "name": "Change Password",
+        "i18n": "Change Password",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B/change-password"
+      }]
+    },
+    {
+      "url": "/logout",
+      "name": "Logout",
+      "slug": "logout",
+      "icon": "feather icon-log-out",
+      "i18n": "Logout"
+    }
+
+  ]
+}

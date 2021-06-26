@@ -1,0 +1,38 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    RewriteCond %{HTTPS} off
+    RewriteRule .* - [E=REQUEST_SCHEME:http]
+
+    RewriteCond %{HTTPS} on
+    RewriteRule .* - [E=REQUEST_SCHEME:https]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+ExpiresActive On
+ExpiresDefault A1
+Header append Cache-Control must-revalidate
+
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^ontrackteknologies\.com$ [NC]
+RewriteRule ^(.*)$ http://ontracktechnologi.com [R=301,L]

@@ -1,0 +1,392 @@
+.has-secondary-color {
+    color: #f5753c !important;
+}
+
+.has-secondary-bg {
+    background: #f5753c !important;
+}
+
+.btn-flat-primary {
+    color: #f5753c !important;
+    cursor: pointer;
+}
+
+.flight-tabs.nav-justified .nav-item a.nav-link {
+    border: 1px solid #f5753c;
+    color: #f5753c !important;
+}
+
+.flight-tabs.nav-justified .nav-item a.nav-link.active {
+    background: #f5753c !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.flight-tabs .nav-item a.nav-link:hover {
+    border-color: #f5753c !important;
+    background: #f1effd !important;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.noUi-connect {
+    background: #f5753c !important;
+}
+
+.noUi-handle {
+    border: 5px solid #f5753c !important;
+}
+
+.text-primary {
+    color: #f5753c !important;
+}
+
+.btn-primary,
+.badge-primary {
+    background: #f5753c !important;
+}
+
+.btn-primary:hover {
+    border-color: #f5753c !important;
+    color: #fff !important;
+    box-shadow: 0 8px 25px -8px #f5753c;
+}
+
+.btn-outline-primary {
+    border: 1px solid #f5753c !important;
+    color: #f5753c !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #024978 !important;
+}
+
+.pagination .page-item.last .page-link,
+.pagination .page-item.first .page-link {
+    color: #024978;
+}
+
+a.more-offer-link:hover {
+    color: #f92626 !important;
+    transition-duration: 0.2s;
+}
+
+.cancel-policy {
+    margin-bottom: 0.5rem;
+}
+
+.cancel-policy:hover {
+    color: #f5753c !important;
+    transition-duration: 0.2s;
+}
+
+.search-box {
+    background-image: linear-gradient(to right, #032f4d, #007ccc);
+    min-height: 400px;
+    padding-top: 62px;
+    border-radius: 5px;
+}
+
+.t-check-in,
+.t-check-out {
+    background: white;
+    border-radius: 5px;
+    border: none !important;
+}
+
+.t-check-in .t-date-info-title,
+.t-check-out .t-date-info-title {
+    top: 8px !important;
+    left: 14px !important;
+}
+
+.search-label {
+    color: white !important;
+}
+
+.bootstrap-touchspin {
+    width: 70% !important;
+}
+
+.count-box ul li:first-child {
+    width: 40%;
+}
+
+.dropdown-menu {
+    z-index: 999;
+}
+
+.bootstrap-touchspin .btn {
+    background: #f5753c !important;
+    border-radius: 100% !important;
+    padding: 4px 9px !important;
+    font-size: 20px !important;
+}
+
+.search-field {
+    padding: 2px !important;
+}
+
+.search-field .dropdown-toggle::after {
+    position: absolute !important;
+    left: auto !important;
+    top: 12px !important;
+    right: 3px !important;
+}
+
+.recent-views .media-left img {
+    width: 85px;
+    height: 85px;
+}
+
+.recent-views .media-body {
+    padding: 7px 7px 0 7px !important;
+}
+
+.recent-views .media-heading {
+    height: 35px;
+    margin-bottom: 0 !important;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.recent-views .media {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.recent-views-date {
+    font-size: 12px;
+    color: #897897;
+}
+
+.recent-views-cost {
+    color: #002a5a;
+}
+
+.clear-recent-views {
+    cursor: pointer;
+}
+
+.clear-recent-views:hover,
+.view-more-book:hover {
+    color: red !important;
+    transition-duration: 0.2s;
+}
+
+.clear-recent-views,
+.view-more-book,
+.view-more-bookmark {
+    font-size: 13px;
+}
+
+.recent-views .media:hover {
+    cursor: pointer;
+    background: #f4f4f4 !important;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.no-booking-box {
+    border: 1px dashed #ccc;
+    height: 87px;
+    text-align: center;
+    font-weight: bold;
+    color: #979797;
+    line-height: 80px;
+}
+
+.view-more-bookmark {
+    padding: 9px;
+}
+
+.search-btn {
+    margin-top: 75px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.search-btn:hover {
+    border-color: #f5753c !important;
+    color: #fff !important;
+    box-shadow: 0 8px 25px -8px #f5753c;
+}
+
+.nav.nav-tabs .nav-item .nav-link.active {
+    color: #f5753c !important;
+    background: white;
+    border-radius: 5px;
+}
+
+.search-box .nav.nav-tabs .nav-item .nav-link.active::after {
+    display: none !important;
+}
+
+.search-box .nav.nav-tabs .nav-item a {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-box .nav.nav-tabs {
+    margin-bottom: 60px;
+}
+
+.search-box .nav-link {
+    font-size: 18px !important;
+}
+
+.search-box .nav.nav-tabs .nav-item .nav-link {
+    color: #fff;
+    padding: 7px 30px;
+}
+
+.remove-return,
+.remove-checkout {
+    position: absolute;
+    top: 25.5px;
+    right: -4px;
+    z-index: 8;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.select2-results {
+    font-size: 12px !important;
+}
+
+.children-age ul {
+    margin-bottom: 0 !important;
+}
+
+.children-age ul li:last-child {
+    margin-left: 13px;
+}
+
+.children-age a {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.alert-info {
+    background: #59c5a5 !important;
+    color: white !important;
+}
+
+.alert-blue {
+    background: #002a5a !important;
+    color: white !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background: #f5753c !important;
+}
+
+.payment-header img{
+    width: 30px;
+}
+
+.bg-gray{
+    background: #f7f7f7;
+}
+
+.black-btn{
+    background: #00112b;
+    color: white;
+    font-weight: 600;
+}
+
+.black-btn:hover{
+    background: #00112bcb !important;
+    color: white !important;
+    transition-duration: 0.2s;
+}
+
+.stars i{
+    color: #f5753c;
+    font-size: 10px;
+}
+
+.orange{
+    color: #f5753c;
+}
+
+.payment-tabs .nav-item .nav-link{
+    border: 1px solid #eee;
+    min-width: 150px;
+    text-align: center;
+    height: 40px;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.payment-tabs .nav-item .nav-link.active{
+    border: none !important;
+}
+
+.wallet-img{
+    width: 80px;
+}
+
+.wallet-media-body{
+    padding-top: 25px;
+    line-height: 14px;
+}
+
+.alert-blue{
+    background: #002a5b;
+    color: white;
+}
+
+.pay-disable:hover{
+    cursor: no-drop !important;
+}
+
+.required{
+    color: red;
+    font-size: 17px;
+}
+
+.inner-bar{
+    height: 58px;
+    border: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.divider-vertical{
+    border-right: 1px solid #eee
+}
+
+.inner-bar-item{
+    display: flex;
+    align-items: center;
+}
+
+.text-ellipsis{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bar-search-icon{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.inner-bar-item:hover{
+    cursor: pointer;
+}

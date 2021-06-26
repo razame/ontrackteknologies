@@ -1,0 +1,81 @@
+{
+    "menu": [
+        {"url":"/dashboard-analytics", "name":"Dashboard", "slug":"dashboard", "icon":"feather icon-home", "i18n":"Dashboard"},
+        {"url":"/B2B-reservation","name":"Reservation", "i18n":"Reservation" ,"slug":"B2B/reservation","icon":"fa fa-shopping-cart","dropdown": "1",
+          "submenu": [
+            {
+              "url": "/B2B-",
+              "name": "Hotels",
+              "i18n": "Hotels",
+              "icon": "fa fa-minus-square",
+              "slug": "/B2B-reservation"
+            },{
+              "url": "/B2B-reservation",
+              "name": "Flights",
+              "i18n": "Flights",
+              "icon": "fa fa-minus-square",
+              "slug": "/B2B-reservation"
+            },{
+              "url": "/B2B-reservation",
+              "name": "Cars",
+              "i18n": "Cars",
+              "icon": "fa fa-minus-square",
+              "slug": "/B2B-reservation"
+            }]},
+            {"url":"","name":"Administration", "i18n":"Administration" ,"slug":"B2B/Administration","icon":"fa fa-users","dropdown": "1",
+              "submenu": [
+                {
+                  "url": "/B2B-Agencies",
+                  "name": "Agencies",
+                  "i18n": "Agencies",
+                  "icon": "fa fa-minus-square",
+                  "slug": "/B2B-Agencies"
+                },{
+                  "url": "/B2B-Branches",
+                  "name": "Branches",
+                  "i18n": "Branches",
+                  "icon": "fa fa-minus-square",
+                  "slug": "/B2B-Branches"
+                },{
+                  "url": "/B2B-Users",
+                  "name": "Users",
+                  "i18n": "Users",
+                  "icon": "fa fa-minus-square",
+                  "slug": "/B2B-Users"
+                }]},
+                {"url":"","name":"Financial Reports", "i18n":"Financial Reports" ,"slug":"B2B/FinancialReports","icon":"fa fa-users","dropdown": "1",
+                  "submenu": [
+                    {
+                      "url": "/B2C-Plans-Reports?status=success",
+                      "name": "Approved Transactions",
+                      "i18n": "Approved Transactions",
+                      "icon": "fa fa-minus-square",
+                      "slug": "/B2C-Plans-Reports"
+                    }]},
+
+                {"url":"","name":"Accounts", "i18n":"Accounts" ,"slug":"B2B/Accounts","icon":"fa fa-users","dropdown": "1",
+                  "submenu": [
+                    {
+                      "url": "/Affiliate-Deposit",
+                      "name": "Affiliate Deposit",
+                      "i18n": "Affiliate Deposit",
+                      "icon": "fa fa-minus-square",
+                      "slug": "/Affiliate-Deposit"
+                    },
+                    {
+                      "url": "/Affiliate-Fund-Allocation",
+                      "name": "Affiliate Fund Allocation",
+                      "i18n": "Affiliate Fund Allocation",
+                      "icon": "fa fa-minus-square",
+                      "slug": "/Affiliate-Fund-Allocation"
+                    },
+                    {
+                      "url": "/Affiliate-Deposit-Reports",
+                      "name": "Affiliate Deposit Reports",
+                      "i18n": "Affiliate Deposit Reports",
+                      "icon": "fa fa-minus-square",
+                      "slug": "/Affiliate-Deposit-Reports"
+                    }]}
+    ]
+  }
+  

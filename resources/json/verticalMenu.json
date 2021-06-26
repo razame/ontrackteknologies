@@ -1,0 +1,55 @@
+{
+  "menu": [{
+      "url": "/dashboard-analytics",
+      "name": "Dashboard",
+      "slug": "/dashboard-analytics",
+      "icon": "feather icon-home",
+      "i18n": "Dashboard"
+    },
+    {
+      "url": "",
+      "name": "Administration",
+      "i18n": "Administration",
+      "slug": "B2B/Administration",
+      "icon": "fa fa-user-secret",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-Users",
+        "name": "Users",
+        "i18n": "Users",
+        "icon": "fa fa-minus-square",
+        "slug": "B2B-Users"
+      }]
+    },
+    
+    {
+      "url": "",
+      "name": "My Profile",
+      "i18n": "My Profile",
+      "slug": "B2B/my-profile",
+      "icon": "fa fa-user",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B/my-profile",
+        "name": "Edit Profile",
+        "i18n": "Edit Profile",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B/my-profile"
+      }, {
+        "url": "/B2B/change-password",
+        "name": "Change Password",
+        "i18n": "Change Password",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B/change-password"
+      }]
+    },
+    {
+      "url": "/logout",
+      "name": "Logout",
+      "slug": "logout",
+      "icon": "feather icon-log-out",
+      "i18n": "Logout"
+    }
+
+  ]
+}

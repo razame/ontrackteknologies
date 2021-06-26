@@ -1,0 +1,96 @@
+.default-logo{
+    width: 225px;
+    margin-top: 5px;
+}
+
+.price-table-box li:first-child{
+    min-height: 80px;
+}
+
+.price-table-box{
+    min-height: 910px;
+}
+
+.footer-about .logo > a {
+    max-width: 100px;
+}
+
+.footer-gateway img{
+    width: 300px;
+}
+
+.service-box-wrap2 img{
+   height: 220px;
+}
+
+.post-style3{
+    max-width: 100% !important;
+    left: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 30px !important;
+}
+
+.post-style3::before , .post-style3::after , .blog-timeline-wrap::before{
+    display: none !important;
+}
+
+
+.main-menu > li.active-menu > a::after {
+    opacity: 1;
+    right: 21px;
+}
+
+.main-menu > li > a::after {
+    content: "";
+    left: 0;
+    height: 2px;
+    background-color: var(--color7);
+    position: absolute;
+    bottom: 1px;
+    opacity: 0;
+    right: 21px;
+    width: 100%;
+    -webkit-transition: var(--transition2);
+    -ms-transition: var(--transition2);
+    -o-transition: var(--transition2);
+    transition: var(--transition2);
+}
+
+.mta-loader-container .mta-loader {
+    width: 160px !important;
+    height: 160px !important;
+}
+
+.mta-loader-container .mta-loader .loader-logo {
+    max-width: 140px !important;
+    max-height: 90px !important;
+}
+
+.choos-box > i + .choos-info {
+    padding-top: 10px;
+}
+
+.choos-box {
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .service-box-wrap2{
+        text-align: center !important;
+     }
+}
+.main-menu_li{
+    background: url('../images/shape.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 140px;
+    height: 40px;
+    padding: 0 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .methods img{
+    width: 260px;
+    margin-top: 45px;
+    margin-left: 20px;
+  }

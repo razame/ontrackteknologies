@@ -1,0 +1,380 @@
+{
+  "menu": [{
+      "url": "/dashboard-analytics",
+      "name": "Dashboard",
+      "slug": "/dashboard-analytics",
+      "icon": "feather icon-home",
+      "i18n": "Dashboard"
+    },
+    {
+      "url": "",
+      "name": "Reservation",
+      "i18n": "Reservation",
+      "slug": "/B2B-reservation",
+      "icon": "fa fa-shopping-cart",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-reservation",
+        "name": "Hotels",
+        "i18n": "Hotels",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-reservation"
+      }, {
+        "url": "/B2B-reservation?action=flight",
+        "name": "Flights",
+        "i18n": "Flights",
+        "icon": "fa fa-minus-square",
+        "slug": ""
+      }, {
+        "url": "",
+        "name": "Cars",
+        "i18n": "Cars",
+        "icon": "fa fa-minus-square",
+        "slug": ""
+      }]
+    },
+    {
+      "url": "",
+      "name": "Hotel Bookings Reports",
+      "i18n": "Hotel Bookings Reports",
+      "slug": "B2B/Administration",
+      "icon": "fa fa-user-secret",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-hotels/booking-reports",
+        "name": "All",
+        "i18n": "All",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports"
+      },
+      {
+        "url": "/B2B-hotels/booking-reports-confirmed?status=confirmed",
+        "name": "Confirmed",
+        "i18n": "Confirmed",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-confirmed?status=confirmed"
+      },
+      {
+        "url": "/B2B-hotels/booking-reports-failed?status=failed",
+        "name": "Failed",
+        "i18n": "Failed",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-failed?status=failed"
+      },{
+        "url": "/B2B-hotels/booking-reports-rejected?status=rejected",
+        "name": "Rejected",
+        "i18n": "Rejected",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-rejected?status=rejected"
+      },{
+        "url": "/B2B-hotels/booking-reports-pending?status=pending",
+        "name": "Pending",
+        "i18n": "Pending",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-pending?status=pending"
+      },{
+        "url": "/B2B-hotels/booking-reports-canceled?status=canceled",
+        "name": "Canceled",
+        "i18n": "Canceled",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-hotels/booking-reports-canceled?status=canceled"
+      }]
+    },
+    {
+      "url": "",
+      "name": "Administration",
+      "i18n": "Administration",
+      "slug": "B2B/Administration",
+      "icon": "fa fa-user-secret",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-Agencies",
+        "name": "Agencies",
+        "i18n": "Agencies",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-Agencies"
+      }, {
+        "url": "/B2B-Branches",
+        "name": "Branches",
+        "i18n": "Branches",
+        "icon": "fa fa-minus-square",
+        "slug": "B2B-Branches"
+      }, {
+        "url": "/B2B-Users",
+        "name": "Users",
+        "i18n": "Users",
+        "icon": "fa fa-minus-square",
+        "slug": "B2B-Users"
+      }]
+    },
+
+
+    {
+      "url": "",
+      "name": "Accounts",
+      "i18n": "Accounts",
+      "slug": "Affiliate-Deposit",
+      "icon": "fa fa-users",
+      "dropdown": "1",
+      "submenu": [{
+          "url": "",
+          "name": "Affiliate Deposit",
+          "i18n": "Affiliate Deposit",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Deposit",
+          "submenu": [{
+            "url": "/Affiliate-Deposit",
+            "name": "Pay Online",
+            "i18n": "Pay Online",
+            "icon": "fa fa-minus-square",
+            "slug": "Affiliate-Deposit"
+          },
+          {
+            "url": "/Affiliate-Deposit-Cash-Deposite?CashDeposit=true",
+            "name": "Cash Deposit",
+            "i18n": "Cash Deposit",
+            "icon": "fa fa-minus-square",
+            "slug": "Affiliate-Deposit-Cash-Deposite"
+          }]
+        },
+        {
+          "url": "/Affiliate-Deposit-Reports",
+          "name": "Affiliate Deposit Reports",
+          "i18n": "Affiliate Deposit Reports",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Deposit-Reports"
+        },
+        {
+          "url": "/Affiliate-Fund-Allocation",
+          "name": "Fund Allocation",
+          "i18n": "Fund Allocation",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Fund-Allocation"
+        },
+        {
+          "url": "/Affiliate-Fund-Allocation-Reports",
+          "name": "Fund Allocation Reports",
+          "i18n": "Fund Allocation Reports",
+          "icon": "fa fa-minus-square",
+          "slug": "Affiliate-Fund-Allocation-Reports"
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "Hotels",
+      "i18n": "Hotels",
+      "slug": "B2B/Hotels",
+      "icon": "fa fa-hotel",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-Hotel-API",
+        "name": "Hotel API",
+        "i18n": "Hotel API",
+        "icon": "fa fa-minus-square",
+        "slug": "Hotel-API"
+      }]
+    },
+    {
+      "url": "",
+      "name": "Payment Gateway",
+      "i18n": "Payment Gateway",
+      "slug": "B2B/Payment-Gateway",
+      "icon": "fa fa-cc-mastercard",
+      "dropdown": "1",
+      "submenu": [{
+          "url": "/B2B-GTpay-API",
+          "name": "GTpay API",
+          "i18n": "GTpay API",
+          "icon": "fa fa-minus-square",
+          "slug": "GTpay-API"
+        },
+        {
+          "url": "/B2B-MIGS-API",
+          "name": "MIGS API",
+          "i18n": "MIGS API",
+          "icon": "fa fa-minus-square",
+          "slug": "MIGS-API"
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "B2C Plans Reports",
+      "i18n": "B2C Plans Reports",
+      "slug": "B2B/B2CPlansReports",
+      "icon": "feather icon-pie-chart",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2C-Plans-Reports?status=success",
+        "name": "Approved Transactions",
+        "i18n": "Approved Transactions",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2C-Plans-Reports"
+      }, {
+        "url": "/B2C-Plans-Reports?status=pending",
+        "name": "Pending Transactions",
+        "i18n": "Pending Transactions",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2C-Plans-Reports"
+      }, {
+        "url": "/B2C-Plans-Reports?status=rejected",
+        "name": "Voided/Rejected Transactions",
+        "i18n": "Voided/Rejected Transactions",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2C-Plans-Reports"
+      }]
+    },
+    {
+      "url": "",
+      "name": "Site Settings",
+      "i18n": "Site Settings",
+      "slug": "site-settings",
+      "icon": "fa fa-tasks",
+      "dropdown": "1",
+      "submenu": [{
+          "url": "/site-setting-general",
+          "name": "General",
+          "i18n": "General",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Setting-General"
+        },
+        {
+          "url": "/site-pages/5",
+          "name": "About Us",
+          "i18n": "About Us",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-About-Us"
+        },
+        {
+          "url": "/site-pages/6",
+          "name": "Privacy Policy",
+          "i18n": "Privacy Policy",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-Privacy-Policy"
+        },
+        {
+          "url": "/site-pages/7",
+          "name": "Terms and Conditions",
+          "i18n": "Terms and Conditions",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-Terms-and-Conditions"
+        },
+        {
+          "url": "/site-pages/11",
+          "name": "Refund Policy",
+          "i18n": "Refund Policy",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-Refund-Policy"
+        },
+        {
+          "url": "/site-pages/8",
+          "name": "3D Secure",
+          "i18n": "3D Secure",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-3D-Secure"
+        },
+        {
+          "url": "/site-pages/12",
+          "name": "Tripser Legal Information",
+          "i18n": "Tripser Legal Information",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-tripser-Legal-Information"
+        },
+        {
+          "url": "/site-pages/13",
+          "name": "Tripser Technical Support",
+          "i18n": "Tripser Technical Support",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-tripser-Technical-Support"
+        },
+        {
+          "url": "/site-pages/14",
+          "name": "Tripser AboutUS",
+          "i18n": "Tripser AboutUS",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-tripser-AboutUS"
+        },
+        {
+          "url": "/site-pages/15",
+          "name": "Tripser 3D Secure",
+          "i18n": "Tripser 3D Secure",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-tripser-3D-secure"
+        },
+        {
+          "url": "/site-pages/16",
+          "name": "Tripser Agent Contracts",
+          "i18n": "Tripser Agent Contracts",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-tripser-Agent-Contracts"
+        },
+        {
+          "url": "/site-pages/17",
+          "name": "Tripser TermOfUse",
+          "i18n": "Tripser TermOfUse",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-tripser-TermOfUse"
+        },
+        {
+          "url": "/site-pages/18",
+          "name": "Tripser PrivacyPolicy",
+          "i18n": "Tripser PrivacyPolicy",
+          "icon": "fa fa-minus-square",
+          "slug": "B2B-Site-Pages-tripser-PrivacyPolicy"
+        },
+        {
+          "url": "/site-pages-file-manager",
+          "name": "File Manager",
+          "i18n": "File Manager",
+          "icon": "fa fa-folder",
+          "slug": "B2B-Site-Pages-File Manager"
+        }
+      ]
+    },
+    {
+      "url": "",
+      "name": "Mark-up Management",
+      "i18n": "Mark-up Management",
+      "slug": "/B2B-setting",
+      "icon": "fa fa-percent",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B-setting/commission",
+        "name": "Commission",
+        "i18n": "Commission",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B-setting/commission"
+      }]
+    },
+    {
+      "url": "",
+      "name": "Setting",
+      "i18n": "Setting",
+      "slug": "B2B/my-profile",
+      "icon": "fa fa-cogs",
+      "dropdown": "1",
+      "submenu": [{
+        "url": "/B2B/my-profile",
+        "name": "Edit Profile",
+        "i18n": "Edit Profile",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B/my-profile"
+      }, {
+        "url": "/B2B/change-password",
+        "name": "Change Password",
+        "i18n": "Change Password",
+        "icon": "fa fa-minus-square",
+        "slug": "/B2B/change-password"
+      }]
+    },
+    {
+      "url": "/logout",
+      "name": "Logout",
+      "slug": "logout",
+      "icon": "feather icon-log-out",
+      "i18n": "Logout"
+    }
+
+  ]
+}
